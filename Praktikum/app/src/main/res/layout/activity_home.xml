@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/ornamen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ornamen" />
+
+    <ImageView
+        android:id="@+id/candi"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:src="@drawable/candi" />
+
+    <Button
+        android:id="@+id/informasi_candi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Candi"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:width="200dp"/>
+
+    <Button
+        android:id="@+id/mulai_tracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mulai Tracking"
+        android:layout_gravity="center"
+        android:width="200dp"/>
+
+</LinearLayout>

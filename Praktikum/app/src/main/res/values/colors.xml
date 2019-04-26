@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#46a5c2</color>
+    <color name="colorPrimaryDark">#4197b3</color>
+    <color name="colorAccent">#1b74b4</color>
+    <color name="btnLogin">#55c7eb</color>
+    <color name="putih">#fff</color>
+    <color name="hitam">#000</color>
+</resources>
