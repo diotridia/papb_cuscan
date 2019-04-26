@@ -30,11 +30,11 @@ public class SecondActivity extends AppCompatActivity {
         });
     }
     public void openinformasi_candi(){
-        Intent intent = new Intent(this,informasi_candi.class);
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
     public void openmulai_tracking(){
-        Intent intent = new Intent(this,mulai_tracking.class);
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
 }
