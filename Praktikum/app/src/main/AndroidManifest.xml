@@ -19,7 +19,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".mulai_tracking" ></activity>
-        <activity android:name=".informasi_candi" ></activity>
 
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -34,7 +34,7 @@ public class SecondActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openmulai_tracking(){
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this,mulai_tracking.class);
         startActivity(intent);
     }
 }
