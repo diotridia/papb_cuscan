@@ -16,6 +16,7 @@ public class Wisata_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_);
 
+
         tvtitle = (TextView) findViewById(R.id.txttitle);
         tvdescription = (TextView) findViewById(R.id.txtDesc);
         tvcategory = (TextView) findViewById(R.id.txtCat);
@@ -33,6 +34,8 @@ public class Wisata_activity extends AppCompatActivity {
         tvdescription.setText(Description);
         img.setImageResource(image);
 
+        getSupportActionBar().setTitle(Title);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 }

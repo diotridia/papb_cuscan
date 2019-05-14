@@ -8,5 +8,7 @@ public class mulai_tracking extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mulai_tracking);
+        getSupportActionBar().setTitle("Mulai Tracking");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

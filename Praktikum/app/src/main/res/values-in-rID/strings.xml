@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Praktikum</string>
+    <string name="infoCandi">Informasi Candi</string>
+    <string name="mulaiTracking">Mulai Tracking</string>
+    <string name="bookTitle">Candi Borobudur</string>
+</resources>

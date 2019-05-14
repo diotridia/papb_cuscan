@@ -20,7 +20,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="125dp"
+                android:layout_width="match_parent"
                 android:layout_height="170dp"
                 android:background="#2d2d2d"
                 android:id="@+id/bookthumbnail"
