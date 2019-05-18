@@ -3,16 +3,16 @@ package com.example.praktikan.praktikum;
 public class Wisata {
 
     private String Title;
-    private String Category ;
+
     private String Description ;
     private int Thumbnail ;
 
     public Wisata() {
     }
 
-    public Wisata(String title, String category, String description, int thumbnail) {
+    public Wisata(String title, String description, int thumbnail) {
         Title = title;
-        Category = category;
+
         Description = description;
         Thumbnail = thumbnail;
     }
@@ -22,9 +22,7 @@ public class Wisata {
         return Title;
     }
 
-    public String getCategory() {
-        return Category;
-    }
+
 
     public String getDescription() {
         return Description;
@@ -39,9 +37,6 @@ public class Wisata {
         Title = title;
     }
 
-    public void setCategory(String category) {
-        Category = category;
-    }
 
     public void setDescription(String description) {
         Description = description;

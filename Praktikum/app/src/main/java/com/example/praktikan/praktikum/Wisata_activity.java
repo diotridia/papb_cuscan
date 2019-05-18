@@ -19,7 +19,7 @@ public class Wisata_activity extends AppCompatActivity {
 
         tvtitle = (TextView) findViewById(R.id.txttitle);
         tvdescription = (TextView) findViewById(R.id.txtDesc);
-        tvcategory = (TextView) findViewById(R.id.txtCat);
+
         img = (ImageView) findViewById(R.id.bookthumbnail);
 
         // Recieve data
